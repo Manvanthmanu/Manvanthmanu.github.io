@@ -1,0 +1,222 @@
+@font-face{
+    font-family: googlefont;
+    src: url(../icons/2x/literata-font/LiterataRegular-jMG7.ttf);
+}
+
+.section-1{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+   
+    background-color:white;
+
+}
+
+#college-logo1{
+    width: 100px;
+    height: 100px;
+}
+#college-name1{
+    height: 130px;
+    width: 600px;
+}
+#year-logo1{
+    width: 100px;
+    height: 100px;
+}
+
+.section-2{
+    display: flex;
+    margin-top: 30px;
+ 
+    padding-right: 320px;
+    padding-left: 320px;
+    background-color: white;
+    
+}
+.section-2 h1{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.section-2 div p{ 
+    color: black;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-family: 'googlefont' ,cursive;
+}
+
+.section-3{
+    margin-top: 20px;
+  
+    padding:30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 div{
+    margin: 5px;
+}
+.section-3 div h2{
+    color: black;
+}
+
+.section-4{
+ padding-top: 10px;
+ padding:30px;
+ background-color: white;
+    display: flex;
+  
+}
+
+.section-4 div h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section-4 div p ,b{
+    color: black;
+    text-align: justify;
+     padding-right: 320px;
+    padding-left: 320px;
+    font-family: 'googlefont' ,cursive;
+}
+
+.section-4 div ul li{
+    color: black;
+    margin-right: 320px;
+    margin-left: 320px;
+    font-family: 'googlefont' ,cursive;
+    text-align: justify;
+}
+
+.section-5{
+    width: 900px;
+  
+    margin:auto;
+   background-color: transparent;
+   margin-top: 30px;
+    
+}
+
+.carousel{
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  
+  }
+  
+  .carousel-cell{
+    width: 60%;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-color:transparent;
+    color: black;
+  }
+
+
+  .section-6{
+  
+    margin:auto;
+   background-color:white;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .section-6 h2{
+      color: black;
+  }
+
+  .section-7{
+   
+    margin:auto;
+   background-color:white;
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-right: 320px;
+   padding-left: 320px;
+  }
+  
+  .section-7 h2{
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: black;      
+  }
+  .section-7  p{
+   color: black;
+   font-family: 'googlefont' ,cursive;
+   text-align: justify;
+  }
+
+  .section-8{
+      margin-top: 30px;
+      margin-bottom: 10px;
+    
+      background-color: white;
+  }
+  .carousel2{
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .carousel-cell2{
+    width: 100%;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-color:transparent;
+    color: black;
+  }
+  
+
+
+
+  /* all new  */
+
+  /* .container{
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      height: 500px;
+      align-items: center;
+      justify-content: center;
+  } */
+
+  #section-1-new{
+      display: flex;
+      justify-content: center;      
+ }
+  
+  #container-1{
+      justify-content: center;
+      justify-self: center;
+      border: 2px solid rgba(53, 5, 129, 0.856);
+      display: flex;
+      width: 70%;
+      height: 500px;
+  }
+  #container-1 .text{
+      text-align: justify;
+      width: 50%;
+      
+  }
+  #container-1 .image{
+      width: 50%;
+
+  }
+
+  

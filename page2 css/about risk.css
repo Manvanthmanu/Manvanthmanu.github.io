@@ -1,0 +1,98 @@
+@font-face{
+    font-family: firstfontused;
+    src: url(../fonts/Rubik-Bold.ttf);
+}
+
+@font-face{
+    font-family: googlefont;
+    src: url(../icons/2x/literata-font/LiterataRegular-jMG7.ttf);
+}
+
+
+#navigation-menu h5 ,li a{
+    font-family: 'firstfontused' , cursive;
+}
+
+.section-1{
+    font-family: 'googlefont' ,cursive;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.section-1 div h1,p{
+    font-family: firstfontused;
+    color: white;
+}
+.section-1 h1{
+    font-size: 30px;
+}
+.section-1 p{
+    font-size: 20px;
+    padding-right: 200px; padding-left: 200px;
+}
+.section-1 button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#btn-3{
+    color: black;
+    font-family: firstfontused;
+}
+#btn-3:hover{
+    background-color: lawngreen;
+    color: black;
+}
+#btn-4{
+    color: white;
+    background-color: red;
+}
+#btn-4:hover{
+    color: black;
+    background-color:lawngreen;
+
+}
+
+.section-1::before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(52, 5, 129, 0.582), rgba(39, 4, 165, 0.582)) , url('../stock\ photos/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    top: 0px;
+    border: 2px solid rgba(53, 5, 129, 0.856);
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+
+
+/* -------------------------------------------  */
+
+.carousel{
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  
+  }
+  
+  .carousel-cell{
+    width: 60%;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-color:transparent;
+    color: black;
+  }
+
+
+
+

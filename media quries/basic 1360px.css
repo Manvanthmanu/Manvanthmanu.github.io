@@ -1,0 +1,242 @@
+/* Navigation bar  page 1*/
+
+.navbar h5{
+    margin-left: 37px;
+     font-weight: bolder;
+}
+
+#first-li{
+    color: #39ff14;
+     text-decoration: underline;
+}
+
+
+#line1{   
+    border: 3px solid white; float: right;height: 70px; top: 50px; margin-right: 22px; margin-top: 31px;
+}
+
+#floating{
+    writing-mode: vertical-lr;
+     float: right;
+      top: 300px;
+       display: inline;
+        margin-right: 12px;
+        margin-top: 35px; 
+        color:rgb(248, 37, 118);
+}
+
+#top h4{
+    font-size: 25px;
+     color:rgba(247, 19, 133, 0.884);  
+}
+
+#head-1{
+    font-size: 40px; 
+    height:39px
+}
+#head-2{
+    font-size: 40px;
+    padding-left: 5px;
+}
+
+#top p{
+    font-weight:bold ;
+     width: 357px;
+     padding: 6px;
+}
+
+#bottom{
+    padding: 6px;
+}
+#bottom button a{
+    text-decoration: none;
+}
+
+
+#line2{
+    border: 3px solid white;
+     float: right;
+     height: 70px;
+      top:300px;
+       right: 22px;
+        margin-top: 31px;
+         position: absolute;
+}
+
+
+
+
+
+
+/* -----------   page 2 left ------------- */
+
+
+
+
+
+#about-head h1{
+      color: black;
+}
+
+#main-section-div1{
+    position: absolute;
+     top: 550px; 
+      left: 110px;
+       height: 100px; 
+}
+
+#main-section-div1 img{
+    height: 250px;
+}
+
+#second-section-left-top h5 {
+    font-size: 15px;
+     font-family: 'Sora', sans-serif;
+}
+#second-section-left-top h1 {
+    font-size: 30px;
+     font-family: 'Sora', sans-serif;
+}
+#second-section-left-top p {
+    margin-bottom: 12px;
+     font-size: 15px;
+      width: 345px;
+       font-weight: normal;
+        font-family: 'Sora', sans-serif;
+}
+#second-section-left-bottom button{
+    margin-top: 5px;
+     font-size: 15px;
+      font-family: 'Sora', sans-serif;
+}
+#btn7a {
+    text-decoration: none;
+    color: white;
+}
+#second-section-left-bottom a{
+    font-size: 16;
+     color:rgba(53, 5, 129, 0.856) ;
+      padding-left: 20px;
+       font-family: 'Sora', sans-serif;
+        margin-left: 15px;
+        
+}
+
+
+
+
+
+
+
+/* <!-- ---------------  page 2 right ------------ --> */
+
+
+
+
+.img1{
+    width: 86px;
+    height: 62px;
+}
+.img2{
+    width: 91px;
+}
+ .img3{
+    width: 70px;
+    height: 70px;
+}
+.img4{
+    margin-bottom: 9px;
+                    margin-top: 11px;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------      page 3       --------- ----- */
+
+
+
+
+
+
+
+#section-3 div{
+    color: black;
+     width: 500px;
+      margin-left: 180px;
+       margin-top: 65px;
+        display: block ;
+        font-family: 'Merriweather', serif;
+}
+
+#section-3 h1{
+    color: black;
+    font-family: 'Sora', sans-serif;
+}
+#section-3 .p1{
+    color: black; 
+    font-size: 15px;
+     font-family: 'Sora', sans-serif;
+     width: 400px;
+      text-align: justify;
+}
+#section-3 .p2{
+    color: black ;
+     font-size: 15px;
+     font-family: 'Sora', sans-serif;
+       width: 400px; 
+       text-align: justify;
+}
+
+
+
+
+/* ---------------------  page 3 ------------------------ */
+
+
+
+#Report{
+    margin-top: 80px;
+}
+
+.carousel-cell img{
+    width: 1366px;
+}
+
+#last-second{
+    margin-top: 30px;
+}
+
+#last-second h4{
+    color: black;
+}
+#last-second h1{
+    text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+      color: black;
+}
+
+
+.content img{
+    zoom: 130px;
+}
+
+
+#last-footer{
+    background-color: black;
+     margin-top: 10px;
+      height: 30px;
+       display: flex;
+        text-align: center;
+        justify-content: center; 
+        padding:20px;
+}
+
+#last-footer p{
+    color: white;
+}

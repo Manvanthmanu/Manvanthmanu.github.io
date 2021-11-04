@@ -1,0 +1,121 @@
+/* navigation bar  */
+
+#navigation-menu {
+    margin-left: 250px;
+}
+#navigation-menu .navbar img {
+    width: 130px;
+    height: 75px;
+}
+#navigation-menu .navbar h5 {
+    font-size: 20px;
+}
+
+
+ #mid{
+    margin-left: 140px;
+    margin-top: 11px;
+}
+.navbar ul li a{
+    font-size: 35px;
+}
+
+#right{
+    margin-top: 22px;
+}
+.navbar button{
+    width: 140px;
+    height: 60px;
+    
+}
+
+/* navigation bar end */
+
+
+/* section 1 starts  */
+
+#top{
+    margin-left: 150px;
+}
+#top h4{
+    font-size: 30px;
+    
+}
+
+#top h1{
+    font-size: 55px;
+}
+
+#h1-hide{
+    margin-top: 15px;
+}
+
+#top p{
+    font-size: 20px;
+    width: 450px;
+}
+
+#bottom{
+    margin-left: 150px;
+}
+#bottom .button{
+    width: 120px;
+    height: 40px;
+}
+
+
+#hr1{
+    border: 3px solid white; float: right;
+    height: 120px; top: 100px; margin-right: 280px; margin-top: 31px;
+}
+
+#hr2{
+    border: 3px solid white; float: right;height: 120px; top:365px; right: 280px;  margin-top: 31px; position: absolute;
+}
+
+#community {
+      position: absolute;
+      top: 280px;
+      right:270px ;
+      font-size: 22px;
+}
+#section-left::before{
+    height: 600px;
+}
+
+
+/* section 2 ends  */
+
+/* section 3 starts  */
+
+#about-head{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0;
+}
+
+.main-section{
+  display: flex;
+  justify-content: center;
+}
+#blend{
+    position: absolute; top: 780px;  left: 410px; height: 100px; 
+}
+
+#second-section-left h5{
+      font-size: 27px;
+      font-family: sans-serif;
+}
+#second-section-left h1{
+      font-size: 36px;
+      width: 491px;
+      font-family: sans-serif;
+}
+#second-section-left p{
+      font-size: 19px;
+      font-family: sans-serif;
+}
+
+

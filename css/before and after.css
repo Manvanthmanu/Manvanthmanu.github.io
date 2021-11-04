@@ -1,0 +1,110 @@
+#section-left::before{
+    content: '';
+    position:absolute;
+    background-image:  linear-gradient( to right, rgba(52, 5, 129, 0.582), rgba(39, 4, 165, 0.582)) , url(../photos/pexels-artem-podrez-5716001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0vw;
+    height: 500px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+#section-4::before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(255, 255, 255, 0.705) ) , url(../photos/pexels-artem-podrez-5715853.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 350px;
+    top: 1080px;
+    right: 200px;
+    z-index: -1;
+    opacity: 1;
+    box-shadow: 10px 10px 0px rgba(53, 5, 129, 0.856) ;
+
+}
+/* #section-4::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(151, 149, 149, 0.637);
+    background-image: url(../icons/1x/backword.png)  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top:1450px;
+    left: 100px;
+    opacity: 1;
+  
+
+} */
+
+#section-3::before{
+    content:'ML Market Logics';
+    position:absolute;
+    background-color: rgba(53, 5, 129, 0.856);
+    height: 80px;
+    width: 80px;
+    top: 1150px;
+    right: 520px;
+    z-index: 1;
+    opacity: 1;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 18px;
+}
+
+/* #section-3::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(151, 149, 149, 0.637);
+    background-image: url(../icons/1x/outline_arrow_forward_ios_black_24dp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top:1450px;
+    right: 100px;
+    opacity: 1;
+    
+} */
+/* 
+#last-second::after{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    top: 2430px;
+    margin: auto;
+    background-color: rgba(53, 5, 129, 0.856);
+    z-index: -1;
+} */
+/* 
+#footer::before{
+    content: '';
+    position: absolute;
+    height: 220px;
+    width: 100%;
+    top:2780px;
+    background-color: rgba(53, 5, 129, 0.856);
+    z-index:-1;
+} */
+/* #footer::after{
+    content: '';
+    position: absolute;
+    height: 330px;
+    width: 100%;
+    top: 2500px;
+    background-color: black;
+    z-index:-3000;
+}  */

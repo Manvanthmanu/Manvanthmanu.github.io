@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.card{
+    margin: 30px;
+    width: 200px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid red;
+    border-radius: 16px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    background-color: rgba(228, 222, 222, 0.329);
+}
+
+.container .card .content{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    /* margin-bottom: 4px; */
+}
+
+.card h3{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: black;
+  
+    font-family: sans-serif;
+}
+.card p{
+    font-size: 13px;
+    color: black;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+/* .button1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    background-color: rgba(228, 222, 222, 0.329);
+    
+}
+.button1:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    background-color: rgba(179, 171, 171, 0.329);
+    
+}
+#btn-left1{
+    display: block;
+    position: absolute;
+    top: 2980px;
+    left: 150px;
+}
+#btn-right1{
+    display: block;
+    position: absolute;
+    top: 2980px;
+    right: 150px;
+} */

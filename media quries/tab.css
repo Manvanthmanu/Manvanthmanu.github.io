@@ -1,0 +1,221 @@
+#left{
+    
+    margin-left: 0px;
+    margin-top: 14px;
+
+}
+#left img{
+    
+    width: 69px;
+    height: 42px;
+    margin-left: 10px;
+
+}
+#left h5{
+    
+    font-size: 12px;
+    margin-left: 0px;
+
+}
+
+#mid{
+    
+    margin-left: 0px;
+    margin-top: 23px;
+
+}
+
+#right{
+    margin-left: 0px;
+    margin-top: 34px;
+}
+
+#btn1{
+    width: 80px;
+    height: 30px;
+    padding:auto;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+}
+#btn2{
+    width: 80px;
+    height: 30px;
+    padding:auto;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+#mid ul li a{
+    font-size:17px ;
+ }
+
+
+ #section-left{
+     
+    margin-left: 110px;
+    margin-top: 55px;
+
+ }
+ #section-left h4{
+     font-size: 22px;
+ }
+ #head-1{
+     font-size: 36px;
+ }
+ #head-2{
+     font-size: 36px;
+ }
+
+ 
+ #floating{
+     font-size: 17px;
+     margin-top: 49px;
+     margin-right: 0px;
+ }
+
+ #line1{
+     margin-top: 10px;
+ }
+
+ #line2{
+     margin-top: 10px;
+ }
+
+ #section-left::before{
+     height: 400px;
+ }
+
+ 
+ #bottom .button{
+    width: 80px;
+    height:30px;
+    font-size: 17px;
+}
+ #bottom .button a{
+   font-size: 15px;
+}
+
+
+
+
+
+
+/* --------------  page 2 -------------------- */
+
+
+
+
+
+#main-section-div1{
+
+    display: block;
+    position: absolute;
+    top: 380px;
+    left: 200px;
+}
+
+#second-section-mid{
+    visibility: hidden;
+}
+
+#second-section-left{
+  
+    margin-left: 24px;
+    margin-top: 23px;
+
+}
+
+
+
+#second-section-right{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    /* right: 100px; */
+    padding: 10px;
+    /* width: 1000px; */
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 10px;
+    margin: 15px;
+}
+
+
+/* -------------  page 3   ------------- */
+
+/* 
+#section-3 {
+    top: 3000px;
+} */
+
+#section-3 div{
+    
+    margin-left: 30px;
+    margin-top:409px;
+    /* top: 3000px; */
+
+}
+#section-3 div h1{
+    font-size: 26px;
+    
+
+}
+
+#section-3 div .p1{
+    font-size: 13px;
+    width: 405px;
+}
+
+#section-4::before{
+    width: 300px;
+    top: 1350px;
+    height: 390px;
+    right: 30px;
+}
+
+#section-3::before{
+    top: 1387px;
+    right: 287px;
+    width: 70px;
+    height: 70px;
+    font-size: 16px;
+}
+
+
+.carousel{
+    height: 200px;
+    background-color: transparent;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.carousel-cell{
+    height: 200px;
+    background-color: transparent;
+}
+.carousel .carousel-cell img{
+    width: 1000px;
+    /* height: 100px; */
+}
+
+
+.container{
+    height: 630px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .card .content {
+    /* flex-wrap: wrap; */
+    width: 400px;
+}
+
+#manvanth{
+    display: '';    
+}
+

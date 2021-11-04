@@ -1,0 +1,86 @@
+#navigation-menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#left h5{
+    width: 100px;
+}
+
+#mid{
+    margin-left: 80px;
+    margin-top: 15px;
+}
+#mid ul li {
+    padding: 15px;
+}
+#mid ul li a{
+   font-size:20px ;
+}
+#right{
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+#btn2{
+    margin-left: 0px;
+}
+
+
+/* ------------------  page 2 ---------------------------- */
+
+
+
+#second-section-left{
+    
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+#second-section-left-top h1{
+    font-size: 27px;
+}
+
+#second-section-mid{
+    margin-left: 0px;
+}
+
+#main-section-div1{
+    width: 300px;
+    left: 0px;
+}
+
+#second-section-right{
+    padding-right: 0px;
+}
+#second-section-right .box{
+    margin: 10px;
+}
+
+
+.h5{
+    font-size: 16px;
+}
+
+/* ------------------  page 3 ------------------- */
+
+
+
+#section-3 div{
+    margin-left: 80px;
+}
+
+#section-4::before{
+    right: 100px;
+}
+
+#section-3::before{
+    right: 413px;
+}
+
+
+.card{
+    margin: 15px;
+}

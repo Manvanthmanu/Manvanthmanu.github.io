@@ -1,0 +1,112 @@
+
+header{
+    /* position:sticky;
+    top: 0; */
+}
+
+#navigation-menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li{
+    padding: 20px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+/* starting here */
+
+#left{
+    float: auto;
+}
+
+#mid{
+    margin-top: 0px;    
+    margin-left: 178px;
+    margin-right: 0px;
+
+}
+
+#right{
+   
+    margin-top: 15px;
+    margin-left: 130px;
+
+
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    padding:auto;
+    font-weight: bold;
+    font-size: 18px;
+    color: purple;
+    border-radius: 10px;
+
+}
+
+#btn2{
+    margin-left: 10px;
+    color:white;
+    background-color: rgb(223, 43, 118);
+}
+
+
+/* animation effects */
+.navbar ul li a:hover{
+    /* font-size: 32px; */
+    /* text-shadow:2px 1px purple; */
+    animation-name: manvanth;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes manvanth{
+    from {}
+    to {
+        color: rgba(38, 5, 92, 0.918);
+        color: #39ff14;
+    }
+}
+#btn2:hover{
+    /* color: white;
+    background-color: purple; */
+    /* animation-name: forbutton;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    color:white;
+    background-color: red; */
+    cursor: pointer;
+    animation-name: forbutton;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#btn1:hover{
+    /* color: white;
+    background-color: purple; */
+    animation-name: forbutton;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+@keyframes forbutton{
+    from{
+        
+    }
+    to{
+        color:white;
+        background-color: red;
+    }
+}

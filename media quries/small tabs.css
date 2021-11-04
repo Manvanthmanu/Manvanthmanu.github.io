@@ -1,0 +1,127 @@
+*{
+    margin-right: 0px;
+}
+#navigation-menu{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#left{
+    margin-top: 2px;
+}
+#left h5{
+    width: 134px;
+}
+
+#left img{
+   margin-top: 0px;
+   margin-left: 38px;
+}
+
+#mid{
+    margin-top: 0px;
+}
+
+#right{
+    margin-top: 0px;
+}
+
+#line1{
+    display: none;
+}
+#line2{
+    display: none;
+}
+#section-left #floating{
+   display: none;
+}
+
+
+#left h5{
+    font-size: 18px;
+    
+}
+
+#section-left{
+    
+    margin-left: 0px;
+    margin-top: 35px;
+     text-align: center;
+}
+#section-left h4{
+    font-size: 18px;
+
+}
+#section-left h1{
+    font-size: 30px;
+}
+
+#top{
+    text-align: center;
+}
+#top p{
+    text-align: center;
+    /* padding-left: 90px; */
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ------------------ page 2 ------------------- */
+
+
+
+
+
+#second-section-left-top{
+    margin-top: 40px;
+}
+
+#main-section-div1{
+    left: 50px;
+}
+
+#main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+/* .main-section div{
+    height: 835px;
+} */
+
+
+
+#section-3::before{
+    display: none;
+}
+
+#section-4::before{
+    display: none;
+}
+
+#section-3 div h1{
+   
+    margin-left: 114px;
+    text-align: center;
+}
+#section-3 div .p1{
+   margin-left: 110px;
+}
+
+.carousel .carousel-cell img{
+    width: 700px;
+    /* height: 100px; */
+}
+
+.container{
+    height: 930px;
+}

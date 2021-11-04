@@ -1,0 +1,55 @@
+#footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;flex-direction: column;
+}
+#footer div h1{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+#footer #div2{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer div input{
+    width:150px;
+    height: 30px;
+    text-align: center;
+    margin:3px;
+}
+
+#submit-button{
+    width: 160px;
+    height: 30px;
+    margin-top: 5px;
+    margin: auto;
+    color: black;
+    border-radius: 5px;
+}
+#submit-button:hover{
+    width: 160px;
+    height: 30px;
+    margin-top: 5px;
+    margin: auto;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#last-left {
+    display: flex;
+    flex-flow: wrap-reverse;
+    position: absolute;
+    top: 2340px;
+    right: 50px
+}
+
+#last-left div img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    
+}

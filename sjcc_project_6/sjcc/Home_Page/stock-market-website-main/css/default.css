@@ -1,0 +1,16 @@
+@font-face{
+    font-family: firstfontused;
+    src: url(../fonts/Rubik-Bold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
+    color: rgba(251, 251, 255, 0.938);
+    /* font-weight: bold; */
+    font-family: 'firstfontused';
+    }
+header{
+    display: flex;
+    flex-direction: row;
+}
